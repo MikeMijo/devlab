@@ -1,0 +1,14 @@
+.top {
+    background-color: grey; 
+    padding: 5px;
+}
+
+.top p {
+    color: pink;
+}
+
+border box {
+    border-style: solid; 
+    border-width: 5px; 
+    border-color: black;
+}
