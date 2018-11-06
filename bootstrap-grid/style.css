@@ -1,0 +1,50 @@
+.jumbotron {
+    margin: 20px;
+    background-color: mintcream;
+}
+
+.my-header {
+    background-color: gray;
+    text-align: center;
+}
+
+.myCol-green {
+background-color: green;
+height: 200px;
+}
+
+.myCol-yellow {
+    background-color: gold;
+}
+
+.myCol-blue {
+    background-color: blue;
+}
+
+.myCol-red {
+    background-color: red;
+}
+
+.myCol-orange {
+    background-color: orange;
+}
+
+.myCol-cyan {
+    background-color: cyan;
+}
+
+.myCol-voilet {
+    background-color: violet;
+}
+
+.myCol-lightBlue {
+    background-color: lightblue;
+}
+
+.row2 {
+    height: 100px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
