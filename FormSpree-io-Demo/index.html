@@ -25,7 +25,7 @@
 
 
 
-      <form>
+      <!-- <form>
         <div class="form-group" action="https://formspree.io/hello@mikecarreon.com" method="POST">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -33,15 +33,37 @@
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1"> Message </label>
-          <input type="message" class="form-control" id="exampleInputPassword1" placeholder="Message">
+          <input name="message" class="form-control" id="exampleInputPassword1" placeholder="Message">
         </div>
         <div class="form-group form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
         <button type="submit" value="Send" class="btn btn-primary">Submit</button>
-      </form>
+      </form> -->
 
+
+      <form method="POST" action="https://formspree.io/hello@mikecarreon.com" style="background-color: #ddd; padding: 20px;">
+        <h1 style="text-align:center;"> Leave A Message </h1>
+    
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+    
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Message</span>
+          </div>
+          <textarea  name="message" placeholder="Test Message" style="height: 200px; width: 100%;"></textarea>
+        </div>
+    
+        <br>
+    
+        <button type="submit" class="btn btn-primary"> Send Message </button>
+    
+      </form>
 
 </body>
 </html>
