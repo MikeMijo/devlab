@@ -1,0 +1,52 @@
+.innercontent {
+    background-color: white;
+    border: solid 1px green;
+     height: 667px;
+     width: 375px;
+     margin-top: 85px;
+     margin-left: 84px;
+     z-index: 10;
+ }
+ 
+ body{
+     background-image: url(phoneimage.png);
+     background-repeat: no-repeat;
+     background-position-x: 513px;
+     background-attachment: fixed;
+     /* background-position: center; */
+     /* background-size: 515px 900px; */
+ }
+ 
+ .fa-mobile-alt {
+     font-size: 900px;
+ }
+ .everything {
+     position: relative;
+ }
+ 
+ .backgroundimg, .Content {
+     position: absolute;
+     margin-left: 450px;
+ }
+
+#photo-button {
+background-color: transparent;
+color: gray;
+border-color: gray
+}
+
+#photo-icon {
+   font-size:50px;
+   color: #C2D1D9;
+   background-color: #F2F5F7;
+   text-align: center;
+   margin: 5px;
+}
+
+
+#submit-button{
+    background: #424B5A;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+}
